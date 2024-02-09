@@ -1,0 +1,4 @@
+SELECT subjects.subject_name
+FROM teachers
+JOIN subjects ON teachers.id = subjects.teacher_id
+WHERE teachers.name = 'Jessica Watts'
